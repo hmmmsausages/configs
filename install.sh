@@ -21,6 +21,9 @@ if [ $SHELL != "/bin/zsh" ]; then
 
   echo "Installing Powerlevel9k Theme"
   git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+  echo "Installing Auto-Suggestion Plugin"
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
   echo "Copying .zshrc ZSH Profile"
   mv .zshrc ~
 fi

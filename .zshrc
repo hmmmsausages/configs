@@ -70,7 +70,19 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time c
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aws autojump brew common-aliases docker encode64 git jira mvn npm osx web-search)
+plugins=(
+  aws 
+  autojump 
+  brew 
+  common-aliases 
+  encode64 
+  git 
+  jira 
+  npm 
+  osx 
+  web-search 
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
