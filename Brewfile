@@ -1,31 +1,37 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
-brew "autojump"
+tap "homebrew/services"
+tap "homebrew/cask-fonts"
 brew "awscli"
 brew "git"
-brew "mas"
+brew "jq"
 brew "nvm"
-brew "thefuck"
 brew "tldr"
 brew "tmux"
 brew "tree"
 brew "vim"
+brew "yarn"
 cask "1password"
 cask "adobe-acrobat-reader"
+cask "aerial"
 cask "alfred"
 cask "appcleaner"
 cask "caffeine"
 cask "cryptomator"
 cask "docker"
 cask "fantastical"
-cask "firefox"
+cask "firefox-developer-edition"
 cask "google-chrome"
-cask "google-drive-file-stream"
+cask "google-drive"
+cask "inkscape"
 cask "iterm2"
-cask "messenger"
-cask "microsoft-teams"
+cask "kap"
+cask "microsoft-auto-update"
+cask "notion"
 cask "opera"
+cask "postman"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -36,9 +42,14 @@ cask "quicklookase"
 cask "spotify"
 cask "visual-studio-code"
 cask "webpquicklook"
-cask "whatsapp"
+cask "webstorm"
+mas "Adblock Plus", id: 1432731683
+mas "Airmail", id: 918858936
+mas "Bear", id: 1091189122
+mas "BetterSnapTool", id: 417375580
+mas "Next Meeting", id: 1017470484
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
-mas "Bear", id: 1091189122
-mas "Adblock Plus", id: 1432731683
-mas "BetterSnapTool", id: 417375580
+mas "Xcode", id: 497799835
